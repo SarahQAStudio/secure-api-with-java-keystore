@@ -31,12 +31,6 @@ client-truststore.jks: Truststore that contains the server's certificate
 
 Sample REST controller (DemoApplication.java)
 
-📦 **How to Run the JAR.**
-
-Download the project in Zip file. Unzip it and execute run.bat
-
-By default, the server runs on HTTPS (https://localhost:8443) and is configured to only accept requests from authenticated clients with valid certificates.
-
 🔐 **What is Java Keystore Authentication?**
 
 Java Keystore (JKS) is a secure repository used to store cryptographic keys, X.509 certificates, and private keys. In the context of API security:
@@ -64,6 +58,12 @@ B2B service integrations
 Banking/Finance APIs
 
 Microservices in zero-trust environments
+
+📦 **How to Run the JAR.**
+
+Download the project in Zip file. Unzip it and execute run.bat
+
+By default, the server runs on HTTPS (https://localhost:8443) and is configured to only accept requests from authenticated clients with valid certificates.
 
 🧪 **Test the API**
 

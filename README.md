@@ -1,6 +1,7 @@
 # secure-api-with-java-keystore
 Tosca API Automation using Java Keystore Authentication
 Project: Secure REST API using Java Keystore Authentication
+
 🔒 Overview
 
 This project demonstrates how to secure a RESTful API using two-way SSL (mutual TLS) authentication implemented with Java Keystore (JKS).
@@ -30,7 +31,9 @@ client-truststore.jks: Truststore that contains the server's certificate
 Sample REST controller (DemoApplication.java)
 
 📦 How to Run the JAR. 
+
 Download the project in Zip file. Unzip it and execute run.bat
+
 By default, the server runs on HTTPS (https://localhost:8443) and is configured to only accept requests from authenticated clients with valid certificates.
 
 🔐 What is Java Keystore Authentication?
@@ -64,11 +67,17 @@ Microservices in zero-trust environments
 🧪 Test the API
 
 You can test the API using Tosca:
+
 Endpoint: https://localhost:8443/employee
+
 Authentication: Java Keystore
+
 Keystore: Pass the path of client-keystore.jks [available in the downloaded project]
+
 Keystore Password: changeit
+
 Certificate: Client
+
 Certificate Password: changeit
 
 curl -k --cert client.pem --key client.key https://localhost:8443/hello

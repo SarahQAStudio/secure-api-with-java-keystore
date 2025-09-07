@@ -31,7 +31,7 @@ client-truststore.jks: Truststore that contains the server's certificate
 
 Sample REST controller (DemoApplication.java)
 
-📦 ****How to Run the JAR. ****
+📦 **How to Run the JAR.**
 
 Download the project in Zip file. Unzip it and execute run.bat
 
@@ -55,8 +55,8 @@ The server validates the client’s certificate using the server-truststore.
 
 This ensures that both sides are verified, which is much more secure than just one-way SSL.
 
-✅ **Use Cases
-**
+✅ **Use Cases**
+
 Securing internal APIs
 
 B2B service integrations
